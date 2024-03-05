@@ -15,7 +15,8 @@ echo "### STEP 3 DONE!"
 
 ./devstack/stack.sh 
 
-echo "IMPORTANT - Change Password for ADMIN_PASSWORD 
+echo "IMPORTANT - Change Password for 
+ADMIN_PASSWORD 
 DATABASE_PASSWORD 
 RABBIT_PASSWORD 
 SERVICE_PASSWORD 
