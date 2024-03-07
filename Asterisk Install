@@ -61,5 +61,8 @@ AST GROUP="asterisk"
 ##
 sudo nano /etc/default/asterisk
 
-#
+# remove semicolon(;) on line 76 and 77
+runuser = asterisk 
+rungroup = asterisk
+##
 sudo nano /etc/asterisk/asterisk.conf
