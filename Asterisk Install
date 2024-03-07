@@ -59,4 +59,7 @@ sudo chown -R asterisk.asterisk /usr/lib/asterisk/
 AST USER="asterisk"
 AST GROUP="asterisk"
 ##
-sudo nano /etc/default/asterisk 
+sudo nano /etc/default/asterisk
+
+#
+sudo nano /etc/asterisk/asterisk.conf
