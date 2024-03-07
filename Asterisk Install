@@ -54,3 +54,9 @@ sudo usermod -aG audio,dialout asterisk
 sudo chown -R asterisk.asterisk /etc/asterisk/
 sudo chown -R asterisk.asterisk /var/{lib,log,spool}/asterisk
 sudo chown -R asterisk.asterisk /usr/lib/asterisk/
+
+## remove pound sign(#) on line 8 and 9: 
+AST USER="asterisk"
+AST GROUP="asterisk"
+##
+sudo nano /etc/default/asterisk 
