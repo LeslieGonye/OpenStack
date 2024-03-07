@@ -52,4 +52,4 @@ sudo useradd -r -d /var/lib/asterisk -g asterisk asterisk
 
 sudo usermod -aG audio,dialout asterisk
 chown -R asterisk.asterisk /etc/asterisk/
-
+chown -R asterisk.asterisk /var/{lib,log,spool}/asterisk
