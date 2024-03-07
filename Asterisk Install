@@ -36,11 +36,11 @@ from WAV to SIREN14
 app_macro
 
 # to install Asterisk run
-make install
+sudo make install
 # install the Samples
-make samples
+sudo make samples
 # install Config files
-make config
+sudo make config
 
 # libraries 
 sudo ldconfig
