@@ -66,3 +66,9 @@ runuser = asterisk
 rungroup = asterisk
 ##
 sudo nano /etc/asterisk/asterisk.conf
+
+systemctl restart asterisk.service
+# to start it at boot run
+systemctl enable asterisk.service
+
+sudo asterisk -rvv
